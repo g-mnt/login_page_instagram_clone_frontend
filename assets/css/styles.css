@@ -1,0 +1,173 @@
+* {
+    margin:0px;
+    padding:0px;
+    text-decoration:none;
+}
+
+html{
+    height:100%;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:14px;
+    font-family:sans-serif;
+    background-color: #FAFAFA;
+    width:100%;
+    height:100%;
+}
+.principal-container{
+    width:75rem;
+    height:39rem;
+    display:flex;
+    justify-content:space-evenly;    /*horizontal*/
+    align-items:start;             /* vertical */
+}
+.left-container{
+    width:12rem;
+}
+.right-container{
+    width:22rem;
+    height:36rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly; /* vertical */
+    align-items:center; /* horizontal */
+}
+#instagram-logo{
+    width:11rem;
+}
+
+.login-box{
+    height:24rem;
+    width:23rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    background-color:#FFFFFF;
+    border:1px solid #DBDBDB;
+}
+
+.login-inputs-container{
+    height:6rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+
+}
+.login-input{
+    background-color:#FAFAFA;
+    width:17.7rem;
+    height:1.6rem;
+    border-radius:3px;
+    border:1px solid #DBDBDB;
+    padding:5px;
+}
+
+#signin-button{
+    background-color:#B2DFFC;
+    width:18.5rem;
+    height:2.3rem;
+    border:none;
+    color:#FFF;
+    border-radius:3px;
+}
+
+.stylized-other{
+    color:#8E8E8E;
+    width:19rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.stylized-other hr{
+    width:7rem;
+    background-color:#8E8E8E;
+}
+#login-facebook{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: #385185;
+    font-weight:bolder;
+}
+#login-facebook img{
+    width:1.6rem;
+    margin-right:0.6rem;
+}
+#pwd-forgot{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:12px;
+    color:#003783;
+}
+
+.signup-box{
+    width:23rem;
+    height:3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#FFFFFF;
+    border:1px solid #DBDBDB;
+}
+#signup{
+    color:#399CF6;
+    margin-left:2%;
+    font-weight:bolder;
+}
+.get-app{
+    width:23rem;
+    height:6rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.get-app-buttons-container{
+    display:flex;
+    width:22rem;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.get-app-button{
+    width:9.5rem;
+    height:2.6rem;
+    background-size:100% 100%;
+}
+
+.get-app-button:nth-child(1){
+    background-image:url("../img/apple-button.png");
+}
+.get-app-button:nth-child(2){
+    background-image:url("../img/googleplay-button.png");
+}
+
+
+@media(max-width:1024px){
+    .left-container{
+        width:16rem;
+    }
+    .right-container{
+        width:30rem;
+    }
+}
+
+@media(max-width:1170px){
+    .left-container{
+        width:15rem;
+    }
+}
+
+@media(max-width:1000px){
+    .left-container{
+        display:none;
+    }
+}
+
+
